@@ -34,13 +34,16 @@
   </a>
 
   <h3 align="center">Orchard</h3>
-
-  <p align="center">
-    A complete SaaS Starter Kit built with RedwoodJS!
+  <p align='center'>
+  A complete SaaS Starter Kit built with RedwoodJS!
     <br />
     <a href="https://github.com/BSKnuckles/Orchard"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
+  </p>
+
+  <img src="design/screenshots/welcome.png" alt="Orchard Logo" width="736" height="438.5">
+
+  <p align="center">
     <a href="https://github.com/BSKnuckles/Orchard">View Demo</a>
     ·
     <a href="https://github.com/BSKnuckles/Orchard/issues">Report Bug</a>
@@ -48,8 +51,6 @@
     <a href="https://github.com/BSKnuckles/Orchard/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -78,11 +79,9 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -250,4 +249,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: design/screenshots/welcome.png
