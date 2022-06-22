@@ -32,8 +32,6 @@
   <a href="https://github.com/BSKnuckles/Orchard">
     <img src="design/logo/trimmed/logo_light.png" alt="Orchard Logo" width="484" height="128">
   </a>
-
-  <h3 align="center">Orchard</h3>
   <p align='center'>
   A complete SaaS Starter Kit built with RedwoodJS!
     <br />
