@@ -10,7 +10,6 @@
 import { Router, Route, Private, Set } from '@redwoodjs/router'
 import AuthLayout from './layouts/AuthLayout'
 import DefaultLayout from './layouts/DefaultLayout'
-import SettingsLayout from './layouts/SettingsLayout'
 
 const Routes = () => {
   return (
@@ -25,9 +24,11 @@ const Routes = () => {
       <Private unauthenticated="login" whileLoadingAuth={null}>
         <Set wrap={DefaultLayout}>
           <Route path="/" page={DashboardPage} name="dashboard" />
-        </Set>
 
-        <Set wrap={SettingsLayout}>
+          {/* Teams */}
+          <Route path="/team" page={TeamsTeamDetailPage} name="teamDetail" />
+          <Route path="/team/new" page={TeamsNewTeamPage} name="newTeam" />
+          {/* Settings */}
           <Route path="/settings/profile" page={ProfilePage} name="profile" />
           <Route path="/settings/security" page={SecurityPage} name="security" />
         </Set>

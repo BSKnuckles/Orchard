@@ -1,14 +1,14 @@
 import { render } from '@redwoodjs/testing/web'
 
-import SettingsLayout from './SettingsLayout'
+import Welcome from './Welcome'
 
 //   Improve this test with help from the Redwood Testing Doc:
-//   https://redwoodjs.com/docs/testing#testing-pages-layouts
+//    https://redwoodjs.com/docs/testing#testing-components
 
-describe('SettingsLayout', () => {
+describe('Welcome', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<SettingsLayout />)
+      render(<Welcome />)
     }).not.toThrow()
   })
 })

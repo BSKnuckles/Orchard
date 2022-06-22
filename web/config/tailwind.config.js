@@ -12,9 +12,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        'cursive': ['Galada', 'cursive'],
+        cursive: ['Galada', 'cursive'],
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
